@@ -57,10 +57,21 @@ export default async function Page(props: {
   const MDX = doc.body;
   const links = doc.links;
   const toc = doc.toc;
-  const rawContent = await readFile(
+  const possiblePaths = [
     resolve(process.cwd(), "content/docs", page.slugs.join("/") + ".mdx"),
-    "utf-8",
-  );
+    resolve(process.cwd(), "content/docs", "(root)", page.slugs.join("/") + ".mdx"),
+    resolve(process.cwd(), "content/docs", "components", page.slugs.join("/") + ".mdx"),
+    resolve(process.cwd(), "content/docs", "hooks", page.slugs.join("/") + ".mdx"),
+  ];
+  let rawContent = "";
+  for (const p of possiblePaths) {
+    try {
+      rawContent = await readFile(p, "utf-8");
+      break;
+    } catch {
+      // try next path
+    }
+  }
 
   return (
     <div className="flex items-stretch xl:w-full" data-slot="docs">
