@@ -34,7 +34,7 @@
         "react-dom": "19.2.3",
       },
       "devDependencies": {
-        "@coss/typescript-config": "workspace:*",
+        "@ness/typescript-config": "workspace:*",
         "@tailwindcss/postcss": "^4.1.17",
         "@types/dompurify": "^3.2.0",
         "@types/node": "^24.10.1",
@@ -130,7 +130,7 @@
         "zod": "^4.1.12",
       },
       "devDependencies": {
-        "@coss/typescript-config": "workspace:*",
+        "@ness/typescript-config": "workspace:*",
         "@shikijs/transformers": "^3.15.0",
         "@tailwindcss/postcss": "^4.1.17",
         "@types/mdx": "^2.0.13",
@@ -158,7 +158,7 @@
         "react-dom": "^19.2.3",
       },
       "devDependencies": {
-        "@coss/typescript-config": "workspace:*",
+        "@ness/typescript-config": "workspace:*",
         "@tailwindcss/postcss": "^4.1.17",
         "@types/node": "^24.10.1",
         "@types/react": "^19.2.6",
@@ -168,7 +168,7 @@
       },
     },
     "packages/typescript-config": {
-      "name": "@coss/typescript-config",
+      "name": "@ness/typescript-config",
       "version": "0.0.0",
     },
     "packages/ui": {
@@ -188,7 +188,7 @@
         "tailwind-merge": "^3.4.0",
       },
       "devDependencies": {
-        "@coss/typescript-config": "workspace:*",
+        "@ness/typescript-config": "workspace:*",
         "@tailwindcss/postcss": "^4.1.17",
         "@turbo/gen": "^2.6.1",
         "@types/node": "^24.10.1",
@@ -296,7 +296,7 @@
 
     "@bundled-es-modules/statuses": ["@bundled-es-modules/statuses@1.0.1", "", { "dependencies": { "statuses": "2.0.2" } }, "sha512-yn7BklA5acgcBr+7w064fGV+SGIFySjCKpqjcWgBAIfrAkY+4GQTJJHQMeT3V/sgz23VTEVV8TtOmkvJAhFVfg=="],
 
-    "@coss/typescript-config": ["@coss/typescript-config@workspace:packages/typescript-config"],
+    "@ness/typescript-config": ["@ness/typescript-config@workspace:packages/typescript-config"],
 
     "@coss/ui": ["@coss/ui@workspace:packages/ui"],
 

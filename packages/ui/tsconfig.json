@@ -11,6 +11,6 @@
     "types": ["next", "react", "node", "bun-types"]
   },
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"],
-  "extends": "@coss/typescript-config/react-library.json",
+  "extends": "@ness/typescript-config/react-library.json",
   "include": ["."]
 }
