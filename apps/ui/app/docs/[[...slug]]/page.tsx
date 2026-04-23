@@ -1,3 +1,5 @@
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
 import { LinkSquare02Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import Link from "next/link";
@@ -51,10 +53,13 @@ export default async function Page(props: {
   }
 
   const doc = page.data;
-  const rawContent = await page.data.getText("raw");
   const MDX = doc.body;
-
   const links = doc.links;
+  const toc = doc.toc;
+  const rawContent = await readFile(
+    resolve(process.cwd(), "content/docs", page.slugs.join("/") + ".mdx"),
+    "utf-8"
+  );
 
   return (
     <div className="flex items-stretch xl:w-full" data-slot="docs">
@@ -117,7 +122,7 @@ export default async function Page(props: {
         >
           <div className="flex min-h-0 flex-col gap-2 py-2">
             <div className="h-(--top-spacing) shrink-0" />
-            {doc.toc?.length ? <DocsTableOfContents toc={doc.toc} /> : null}
+            {toc?.length ? <DocsTableOfContents toc={toc} /> : null}
           </div>
         </ScrollArea>
       </div>
