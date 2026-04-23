@@ -52,7 +52,8 @@ export default async function Page(props: {
     notFound();
   }
 
-  const doc = page.data;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const doc = page.data as any;
   const MDX = doc.body;
   const links = doc.links;
   const toc = doc.toc;
