@@ -1,8 +1,8 @@
-import { siteConfig } from "@coss/ui/lib/config";
-import { GitHubLink } from "@coss/ui/shared/github-link";
-import { ModeSwitcher } from "@coss/ui/shared/mode-switcher";
-import { ProductLabel } from "@coss/ui/shared/product-label";
-import { ProductsDropdown } from "@coss/ui/shared/products-dropdown";
+import { siteConfig } from "@ness/ui/lib/config";
+import { GitHubLink } from "@ness/ui/shared/github-link";
+import { ModeSwitcher } from "@ness/ui/shared/mode-switcher";
+import { ProductLabel } from "@ness/ui/shared/product-label";
+import { ProductsDropdown } from "@ness/ui/shared/products-dropdown";
 import Link from "next/link";
 
 export function SiteHeader({

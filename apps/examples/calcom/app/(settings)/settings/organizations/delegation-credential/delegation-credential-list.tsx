@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
 import {
   Menu,
   MenuCheckboxItem,
@@ -10,13 +10,13 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
+} from "@ness/ui/components/menu";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@coss/ui/components/popover";
-import { Switch } from "@coss/ui/components/switch";
+} from "@ness/ui/components/popover";
+import { Switch } from "@ness/ui/components/switch";
 import { EllipsisIcon, InfoIcon, PencilIcon, TrashIcon } from "lucide-react";
 import type { DelegationCredentialItem } from "./delegation-credential-types";
 import {

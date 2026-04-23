@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogPopup,
   AlertDialogTitle,
-} from "@coss/ui/components/alert-dialog";
-import { Button } from "@coss/ui/components/button";
+} from "@ness/ui/components/alert-dialog";
+import { Button } from "@ness/ui/components/button";
 import {
   Card,
   CardFrame,
@@ -17,7 +17,7 @@ import {
   CardFrameHeader,
   CardFrameTitle,
   CardPanel,
-} from "@coss/ui/components/card";
+} from "@ness/ui/components/card";
 import {
   Empty,
   EmptyContent,
@@ -25,7 +25,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@coss/ui/components/empty";
+} from "@ness/ui/components/empty";
 import {
   Menu,
   MenuCheckboxItem,
@@ -34,9 +34,9 @@ import {
   MenuPopup,
   MenuSeparator,
   MenuTrigger,
-} from "@coss/ui/components/menu";
-import { Switch } from "@coss/ui/components/switch";
-import { toastManager } from "@coss/ui/components/toast";
+} from "@ness/ui/components/menu";
+import { Switch } from "@ness/ui/components/switch";
+import { toastManager } from "@ness/ui/components/toast";
 import {
   EllipsisIcon,
   PencilIcon,

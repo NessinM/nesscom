@@ -2,12 +2,12 @@
 
 import type { Toggle as TogglePrimitive } from "@base-ui/react/toggle";
 import { ToggleGroup as ToggleGroupPrimitive } from "@base-ui/react/toggle-group";
-import { Separator } from "@coss/ui/components/separator";
+import { Separator } from "@ness/ui/components/separator";
 import {
   Toggle as ToggleComponent,
   type toggleVariants,
-} from "@coss/ui/components/toggle";
-import { cn } from "@coss/ui/lib/utils";
+} from "@ness/ui/components/toggle";
+import { cn } from "@ness/ui/lib/utils";
 import type { VariantProps } from "class-variance-authority";
 import * as React from "react";
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { useCopyToClipboard } from "@coss/ui/hooks/use-copy-to-clipboard";
-import { Icons } from "@coss/ui/shared/icons";
+import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
+import { Icons } from "@ness/ui/shared/icons";
 import { Tick02Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import type * as React from "react";

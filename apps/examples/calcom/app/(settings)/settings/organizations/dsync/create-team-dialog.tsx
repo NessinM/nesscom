@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Dialog,
   DialogClose,
@@ -11,16 +11,16 @@ import {
   DialogPopup,
   DialogTitle,
   DialogTrigger,
-} from "@coss/ui/components/dialog";
-import { Field, FieldLabel } from "@coss/ui/components/field";
-import { Form } from "@coss/ui/components/form";
-import { Input } from "@coss/ui/components/input";
+} from "@ness/ui/components/dialog";
+import { Field, FieldLabel } from "@ness/ui/components/field";
+import { Form } from "@ness/ui/components/form";
+import { Input } from "@ness/ui/components/input";
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
-} from "@coss/ui/components/input-group";
+} from "@ness/ui/components/input-group";
 import { PlusIcon } from "lucide-react";
 import type { FormEvent } from "react";
 import { useState } from "react";

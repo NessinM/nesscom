@@ -13,7 +13,7 @@
   ],
   "registryDependencies": [
     "utils",
-    "@coss/ui",
+    "@ness/ui",
     "@coss/fonts"
   ],
   "cssVars": {

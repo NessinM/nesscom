@@ -1,6 +1,6 @@
 "use client";
 
-import { useCopyToClipboard } from "@coss/ui/hooks/use-copy-to-clipboard";
+import { useCopyToClipboard } from "@ness/ui/hooks/use-copy-to-clipboard";
 import {
   ComputerTerminal02Icon,
   Copy01Icon,

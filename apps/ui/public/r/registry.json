@@ -11252,7 +11252,7 @@
       "name": "style",
       "registryDependencies": [
         "utils",
-        "@coss/ui",
+        "@ness/ui",
         "@coss/fonts"
       ],
       "type": "registry:style"

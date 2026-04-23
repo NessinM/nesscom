@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "paths": {
       "@/*": ["./*"],
-      "@coss/ui/*": ["../../packages/ui/src/*"],
+      "@ness/ui/*": ["../../packages/ui/src/*"],
       "@source/*": ["./.source/*"]
     }
   },

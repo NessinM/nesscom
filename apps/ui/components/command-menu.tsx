@@ -1,6 +1,6 @@
 "use client";
 
-import { CommandPanel } from "@coss/ui/components/command";
+import { CommandPanel } from "@ness/ui/components/command";
 import {
   ArrowTurnBackwardIcon,
   Atom01Icon,

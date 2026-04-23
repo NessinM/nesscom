@@ -6,7 +6,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@coss/ui/*": ["./src/*"]
+      "@ness/ui/*": ["./src/*"]
     },
     "types": ["next", "react", "node", "bun-types"]
   },

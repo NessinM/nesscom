@@ -1,7 +1,7 @@
 import "./globals.css";
 
-import { fontHeading, fontMono, fontSans } from "@coss/ui/fonts";
-import { ThemeProvider } from "@coss/ui/shared/theme-provider";
+import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
+import { ThemeProvider } from "@ness/ui/shared/theme-provider";
 import type { Metadata } from "next";
 import {
   AnchoredToastProvider,

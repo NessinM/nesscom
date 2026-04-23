@@ -1,10 +1,10 @@
 import "./globals.css";
 
-import { fontHeading, fontMono, fontSans } from "@coss/ui/fonts";
-import { SiteCta } from "@coss/ui/shared/site-cta";
-import { SiteFooter } from "@coss/ui/shared/site-footer";
-import { SiteHeader } from "@coss/ui/shared/site-header";
-import { ThemeProvider } from "@coss/ui/shared/theme-provider";
+import { fontHeading, fontMono, fontSans } from "@ness/ui/fonts";
+import { SiteCta } from "@ness/ui/shared/site-cta";
+import { SiteFooter } from "@ness/ui/shared/site-footer";
+import { SiteHeader } from "@ness/ui/shared/site-header";
+import { ThemeProvider } from "@ness/ui/shared/theme-provider";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

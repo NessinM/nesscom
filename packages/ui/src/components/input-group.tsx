@@ -1,8 +1,8 @@
 "use client";
 
-import { Input, type InputProps } from "@coss/ui/components/input";
-import { Textarea, type TextareaProps } from "@coss/ui/components/textarea";
-import { cn } from "@coss/ui/lib/utils";
+import { Input, type InputProps } from "@ness/ui/components/input";
+import { Textarea, type TextareaProps } from "@ness/ui/components/textarea";
+import { cn } from "@ness/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 

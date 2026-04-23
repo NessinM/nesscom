@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -10,7 +10,7 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@coss/ui/components/combobox";
+} from "@ness/ui/components/combobox";
 import {
   Dialog,
   DialogClose,
@@ -19,12 +19,12 @@ import {
   DialogPanel,
   DialogPopup,
   DialogTitle,
-} from "@coss/ui/components/dialog";
-import { Field, FieldLabel } from "@coss/ui/components/field";
-import { Form } from "@coss/ui/components/form";
-import { Input } from "@coss/ui/components/input";
-import { SelectButton } from "@coss/ui/components/select";
-import { Textarea } from "@coss/ui/components/textarea";
+} from "@ness/ui/components/dialog";
+import { Field, FieldLabel } from "@ness/ui/components/field";
+import { Form } from "@ness/ui/components/form";
+import { Input } from "@ness/ui/components/input";
+import { SelectButton } from "@ness/ui/components/select";
+import { Textarea } from "@ness/ui/components/textarea";
 import { SearchIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import {

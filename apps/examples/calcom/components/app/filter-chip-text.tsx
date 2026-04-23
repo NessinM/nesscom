@@ -1,21 +1,21 @@
 "use client";
 
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
-import { Input } from "@coss/ui/components/input";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
+import { Input } from "@ness/ui/components/input";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@coss/ui/components/popover";
+} from "@ness/ui/components/popover";
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
-import { cn } from "@coss/ui/lib/utils";
+} from "@ness/ui/components/select";
+import { cn } from "@ness/ui/lib/utils";
 import { ChevronsUpDownIcon } from "lucide-react";
 import type * as React from "react";
 import { useEffect, useRef, useState } from "react";

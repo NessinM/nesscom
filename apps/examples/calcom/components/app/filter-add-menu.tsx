@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@coss/ui/components/badge";
-import { Button } from "@coss/ui/components/button";
+import { Badge } from "@ness/ui/components/badge";
+import { Button } from "@ness/ui/components/button";
 import {
   Menu,
   MenuGroup,
@@ -9,7 +9,7 @@ import {
   MenuItem,
   MenuPopup,
   MenuTrigger,
-} from "@coss/ui/components/menu";
+} from "@ness/ui/components/menu";
 import { ListFilterIcon, PlusIcon } from "lucide-react";
 import type * as React from "react";
 import type { FilterField } from "./filter-chip-types";

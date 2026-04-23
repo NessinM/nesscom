@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@coss/ui/components/button";
+import { Button } from "@ness/ui/components/button";
 import {
   Combobox,
   ComboboxEmpty,
@@ -10,17 +10,17 @@ import {
   ComboboxPopup,
   ComboboxTrigger,
   ComboboxValue,
-} from "@coss/ui/components/combobox";
-import { Field, FieldDescription, FieldLabel } from "@coss/ui/components/field";
-import { Fieldset, FieldsetLegend } from "@coss/ui/components/fieldset";
-import { Group } from "@coss/ui/components/group";
-import { Input } from "@coss/ui/components/input";
-import { Label } from "@coss/ui/components/label";
+} from "@ness/ui/components/combobox";
+import { Field, FieldDescription, FieldLabel } from "@ness/ui/components/field";
+import { Fieldset, FieldsetLegend } from "@ness/ui/components/fieldset";
+import { Group } from "@ness/ui/components/group";
+import { Input } from "@ness/ui/components/input";
+import { Label } from "@ness/ui/components/label";
 import {
   Popover,
   PopoverPopup,
   PopoverTrigger,
-} from "@coss/ui/components/popover";
+} from "@ness/ui/components/popover";
 import {
   Select,
   SelectButton,
@@ -28,8 +28,8 @@ import {
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "@coss/ui/components/select";
-import { Switch } from "@coss/ui/components/switch";
+} from "@ness/ui/components/select";
+import { Switch } from "@ness/ui/components/switch";
 import { InfoIcon, PlusIcon, SearchIcon, XIcon } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 
