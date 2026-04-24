@@ -10,7 +10,7 @@ const links = [{ href: "/easings", text: "Easing Classes" }];
 
 export default function Header() {
   const isMobile = useIsMobile();
-  const creantlyHomeUrl = process.env.NEXT_PUBLIC_COSS_URL || "";
+  const creantlyHomeUrl = process.env.NEXT_PUBLIC_CREANTLY_URL || "";
 
   return (
     <header className="relative mb-14 before:absolute before:-inset-x-32 before:bottom-0 before:h-px before:bg-[linear-gradient(to_right,--theme(--color-border/.3),--theme(--color-border)_200px,--theme(--color-border)_calc(100%-200px),--theme(--color-border/.3))]">

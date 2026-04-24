@@ -15,9 +15,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-const COSS_PARTICLES_URL = "https://creantly.com/ui/particles";
-const COSS_JSON_BASE_URL = "https://creantly.com/ui/r";
-const COSS_REPO_PARTICLES_PATH = "apps/ui/registry/default/particles";
+const CREANTLY_PARTICLES_URL = "https://creantly.com/ui/particles";
+const CREANTLY_JSON_BASE_URL = "https://creantly.com/ui/r";
+const CREANTLY_REPO_PARTICLES_PATH = "apps/ui/registry/default/particles";
 
 function main() {
   // Resolve creantly repo root relative to this script
@@ -96,7 +96,7 @@ function main() {
   lines.push("# CREANTLY UI Particles Index");
   lines.push("");
   lines.push(
-    `Particles are copy-paste-ready UI patterns built on [creantly](https://creantly.com/ui) primitives. Browse them visually at <${COSS_PARTICLES_URL}>.`,
+    `Particles are copy-paste-ready UI patterns built on [creantly](https://creantly.com/ui) primitives. Browse them visually at <${CREANTLY_PARTICLES_URL}>.`,
   );
   lines.push("");
   lines.push("## How to use this skill");
@@ -116,14 +116,14 @@ function main() {
   lines.push("");
   lines.push("Each particle has a JSON manifest at:");
   lines.push("```");
-  lines.push(`${COSS_JSON_BASE_URL}/<particle-name>.json`);
+  lines.push(`${CREANTLY_JSON_BASE_URL}/<particle-name>.json`);
   lines.push("```");
-  lines.push(`For example: \`${COSS_JSON_BASE_URL}/p-accordion-1.json\``);
+  lines.push(`For example: \`${CREANTLY_JSON_BASE_URL}/p-accordion-1.json\``);
   lines.push("");
   lines.push("## Source code");
   lines.push("");
   lines.push(
-    `Particle source files live in this repo at \`${COSS_REPO_PARTICLES_PATH}/\`.`,
+    `Particle source files live in this repo at \`${CREANTLY_REPO_PARTICLES_PATH}/\`.`,
   );
   lines.push("");
   lines.push("## Updating this index");
@@ -156,7 +156,7 @@ function main() {
     lines.push(`### ${type}`);
     lines.push("");
     for (const p of particles) {
-      lines.push(`- ${p.desc} | [JSON](${COSS_JSON_BASE_URL}/${p.name}.json)`);
+      lines.push(`- ${p.desc} | [JSON](${CREANTLY_JSON_BASE_URL}/${p.name}.json)`);
     }
     lines.push("");
   }
