@@ -15,84 +15,66 @@ export default async function Page() {
     <main className="container mb-16 w-full flex-1 lg:mb-20">
       <PageHeader>
         <PageHeaderHeading>
-          infrastructure{" "}
+          the{" "}
           <span className="relative z-4 before:pointer-events-none before:absolute before:-inset-x-1 before:inset-y-0 before:z-4 before:-rotate-1 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">
-            partner program
+            AI systems
           </span>{" "}
-          for agencies.
+          for companies.
         </PageHeaderHeading>
       </PageHeader>
 
       <div className="mx-auto max-w-2xl text-muted-foreground [&_a:not([data-slot='button'])]:text-foreground [&_strong]:text-foreground">
+        <p className="not-first:mt-6 leading-relaxed">dear friend,</p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          la tech factory de automatización para agencias y consultores.
+          most companies are trying to “use AI”. we build companies that operate
+          on AI.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          sistemas de voz, whatsapp, ocr, qr y cobranza automatizada listos para
-          vender bajo tu marca.
+          <strong className="font-medium">creantly</strong> is a holding company
+          focused on building, operating and scaling AI-driven businesses.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>
-            tú vendes. nosotros construimos. tu marca queda al frente.
-          </strong>
+          through our ecosystem, we provide a combination of services,
+          proprietary infrastructure, and SaaS products designed to automate
+          operations, improve decision-making, and unlock new revenue streams.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>partner</strong>
-          <br />
-          tú vendes
-          <br />
-          defines precio, alcance y relación comercial con el cliente.
+          our model is simple: we don’t just deliver projects — we design
+          systems, deploy them in production, and continuously operate and
+          optimize them.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>factory</strong>
-          <br />
-          nosotros construimos
-          <br />
-          desarrollamos, desplegamos y mantenemos la infraestructura técnica.
-          cada instancia es privada y dedicada.
+          this includes:
+          <br />— AI automation for internal workflows
+          <br />— customer acquisition and engagement systems
+          <br />— integrations across payments, communications and scheduling
+          <br />— SaaS solutions built to solve specific operational bottlenecks
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>output</strong>
-          <br />
-          tu cliente recibe
-          <br />
-          un sistema funcional, estable y escalable operando bajo tu marca.
+          <a
+            className="font-medium underline underline-offset-4"
+            href="https://creantly.com"
+          >
+            creantly.com
+          </a>{" "}
+          acts as the central platform where all these components connect into a
+          single operating layer.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>system catalog</strong>
-          <br />
-          módulos listos para desplegar:
-          <br />— voice agents (ventas, soporte, leads 24/7)
-          <br />— whatsapp crm (seguimiento, nurturing, cierre)
-          <br />— ocr automation (gastos, documentos)
-          <br />— qr access systems (control de accesos)
-          <br />— payment automation (cobranza inteligente)
+          for developers and teams, we provide the creantly stack — a unified
+          environment to integrate AI, infrastructure and business workflows
+          without fragmentation.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>infraestructura</strong>
-          <br />— instancias dedicadas por cliente (vps privada)
-          <br />— cumplimiento con APIs oficiales (meta, etc.)
-          <br />— escalabilidad sin degradación
-        </p>
-
-        <p className="not-first:mt-6 leading-relaxed">
-          estos sistemas ya operan en producción. no son prototipos.
-        </p>
-
-        <p className="not-first:mt-6 leading-relaxed">
-          creantly funciona como la capa de infraestructura que permite a
-          agencias vender sistemas complejos sin equipo técnico interno.
-        </p>
-
-        <p className="not-first:mt-6 leading-relaxed">
-          todo corre sobre un único entorno:
+          everything runs on a single environment key:
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
@@ -110,27 +92,40 @@ export default async function Page() {
         />
 
         <p className="not-first:mt-6 leading-relaxed">
-          <strong>partner access</strong>
-          <br />
-          solicita acceso al catálogo privado de sistemas white label.
+          creantly is not a single product — it is a structured ecosystem of
+          companies, tools and systems designed to operate together.
         </p>
 
         <p className="not-first:mt-6 leading-relaxed">
-          si quieres activar este modelo en tu agencia, contáctanos{" "}
+          we handle infrastructure, orchestration and execution so teams can
+          focus on growth and outcomes.
+        </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          practical automation. measurable impact. scalable systems.
+        </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          if you are looking to integrate AI into your business operations, join
+          the early access{" "}
           <a
             className="font-medium underline underline-offset-4"
-            href="/contact"
+            href="https://i.hookra.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
           >
-            aquí
+            waitlist
+          </a>{" "}
+          or explore opportunities to work with us{" "}
+          <a
+            className="font-medium underline underline-offset-4"
+            href="https://hookra.com/jobs"
+          >
+            here
           </a>
           .
         </p>
 
-        <p className="not-first:mt-6 leading-relaxed">—</p>
+        <p className="not-first:mt-6 leading-relaxed">best,</p>
         <p className="not-first:mt-6 leading-relaxed">Nessin Alvarado</p>
-        <p className="not-first:mt-6 text-sm leading-relaxed opacity-70">
-          infrastructure architect · AI systems
-        </p>
       </div>
     </main>
   );
