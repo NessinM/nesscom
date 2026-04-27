@@ -7,7 +7,6 @@ This repository uses a mixed licensing approach. The default license for this pr
 The following directory and their subdirectories are licensed under their original
 
 ```
-apps/origin/
 apps/ui/
 ```
 

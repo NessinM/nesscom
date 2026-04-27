@@ -1,6 +1,6 @@
 ![creantly.com](https://github.com/user-attachments/assets/10d51d2d-0ccf-41f7-97b1-c5bff635dcb9)
 
-<h3 align="center">creantly.com (formerly Origin UI)</h3>
+<h3 align="center">creantly.com </h3>
 <p align="center">The <strong>everything but AI</strong> company.</p>![Uploading Gemini_Generated_Image_wcrd6wwcrd6wwcrd.png…]()
 
 
@@ -18,7 +18,6 @@ This repository contains multiple products and applications that make up the cre
 
 - **`apps/www/`** - Main creantly.com website
 - **`apps/ui/`** - creantly ui component library and documentation
-- **`apps/origin/`** - Legacy Origin UI components (pre-acquisition)
 - **`packages/ui/`** - Shared UI components package
 - **`packages/typescript-config/`** - TypeScript configurations
 - **`biome.json`** - Shared Biome configuration for linting and formatting
@@ -54,17 +53,6 @@ For local development, create a `.env.local` file in each of the app directories
     NEXT_PUBLIC_ORIGIN_URL=http://localhost:4001
     ```
 
-3.  **`origin` app**
-
-    This app needs to know the URLs of the other apps. Create a file at `apps/origin/.env.local`:
-
-    ```sh
-    # apps/origin/.env.local
-    NEXT_PUBLIC_APP_URL=http://localhost:4001/origin
-    NEXT_PUBLIC_CREANTLY_URL=http://localhost:3000
-    NEXT_PUBLIC_CREANTLY_UI_URL=http://localhost:4000/ui
-    ```
-
 > [!NOTE]
 > Turborepo is configured to watch for changes in `.env*` files, so it will automatically invalidate the cache when these variables change.
 
@@ -88,7 +76,6 @@ To build a specific app:
 ```sh
 bun run build --filter=www
 bun run build --filter=ui
-bun run build --filter=origin
 ```
 
 #### Develop
@@ -104,7 +91,6 @@ To develop a specific app:
 ```sh
 bun run dev --filter=www
 bun run dev --filter=ui
-bun run dev --filter=origin
 ```
 
 ## creantly ui
@@ -114,10 +100,6 @@ bun run dev --filter=origin
 We think Base UI is the best foundation for modern web applications. We've taken its powerful, unstyled primitives and given them a design system that's ready to go, right out of the box.
 
 This is the component library we'll be progressively adopting for [hookra.com](https://hookra.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
-
-### Origin UI Acquisition
-
-This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://creantly.com/ui/particles) components built on the creantly ui primitives.
 
 ### Contributing to creantly ui
 
@@ -129,7 +111,7 @@ Please see our [Contributing Guidelines](apps/ui/CONTRIBUTING.md) for more infor
 
 This repository uses a mixed licensing approach. The default license for this project is [AGPLv3.0](LICENSE).
 
-- **MIT**: The `apps/origin/` and `apps/ui/` directories are licensed under their original MIT license
+- **MIT**: The  `apps/ui/` directories are licensed under their original MIT license
 - **AGPLv3**: All other directories are licensed under the GNU Affero General Public License v3.0
 
 For detailed information, see our [Licensing documentation](LICENSING.md).

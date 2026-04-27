@@ -35,8 +35,6 @@
       "!**/.next",
       "!**/apps/**/*/.next",
       "!**/apps/**/*/.source",
-      "!**/apps/origin/public/r",
-      "!**/apps/origin/registry.json",
       "!**/apps/ui/public/r",
       "!**/apps/ui/registry/__index__.tsx",
       "!**/apps/ui/registry.json",

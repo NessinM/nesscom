@@ -1,6 +1,3 @@
-"area:apps/origin":
-  - changed-files:
-      - any-glob-to-any-file: "apps/origin/**"
 
 "area:apps/ui":
   - changed-files:

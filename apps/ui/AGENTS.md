@@ -797,30 +797,6 @@ export default function Particle() {
 
 ---
 
-## 10. Migration from Origin (shadcn/Radix) to creantly (Base UI)
-
-### Understanding the Migration
-
-When creating a particle equivalent to an origin component:
-
-1. **Read the origin component** (`apps/origin/registry/default/ui/{component}.tsx`)
-2. **Check the migration guide** (`apps/ui/content/docs/(root)/radix-shadcn-migration.mdx`)
-3. **Compare the primitives:**
-   - Origin uses Radix UI primitives
-   - creantly uses Base UI primitives
-   - Understand why certain classes were used in origin
-4. **Look at existing particles** in the same category for consistency
-5. **Understand the differences:**
-   - `asChild` → `render` prop
-   - `*Content` → `*Popup` or `*Panel`
-   - `onSelect` → `onClick` (Menu)
-   - `type="multiple"` → `multiple={true}`
-   - Size differences (creantly is more compact)
-
-### Key Migration Patterns
-
-**asChild → render:**
-
 ```tsx
 // Origin (Radix)
 <DropdownMenuTrigger asChild>
@@ -1164,45 +1140,6 @@ When creating a new particle:
 - [ ] Validated dependencies: `bun run registry:validate-deps` from `apps/ui`
 - [ ] Built registry: `bun run registry:build` from `apps/ui`
 - [ ] Copied UI components: `bun run ui:sync` from `apps/ui` (if needed)
-
----
-
-## 18. Migration Workflow for Origin Components
-
-When asked to create an equivalent of an origin component:
-
-1. **Read the origin component:**
-   - `apps/origin/registry/default/ui/{component}.tsx`
-   - Understand its structure and patterns
-   - Note any custom classes or overrides
-
-2. **Check the migration guide:**
-   - `apps/ui/content/docs/(root)/radix-shadcn-migration.mdx`
-   - Find the component's migration section
-   - Understand prop mappings and API differences
-
-3. **Review existing particles:**
-   - Look at particles in the same category
-   - Understand common patterns
-   - See how similar features are implemented
-
-4. **Compare primitives:**
-   - Check what Radix primitive the origin uses
-   - Check what Base UI primitive creantly uses
-   - Understand why classes were overridden in origin
-   - Determine if the same override is needed in creantly
-
-5. **Create the particle:**
-   - Follow all patterns from this guide
-   - Use Base UI API (render prop, not asChild)
-   - Match the visual appearance
-   - Ensure accessibility is maintained
-
-6. **Test and verify:**
-   - Ensure it renders correctly
-   - Check accessibility
-   - Verify it matches the origin component's functionality
-   - Ensure it follows creantly patterns
 
 ---
 
