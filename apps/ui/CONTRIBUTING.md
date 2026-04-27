@@ -21,6 +21,7 @@ Particles use the format: `p-{component}-{N}.tsx`
 - **N**: Progressive number within the category (e.g., `1`, `2`, `3`)
 
 **Examples:**
+
 - `p-button-1.tsx` (first button particle)
 - `p-input-2.tsx` (second input particle)
 - `p-pagination-1.tsx` (first pagination particle)
@@ -32,12 +33,14 @@ Particles use the format: `p-{component}-{N}.tsx`
 ### Step 1: Create the Particle Component
 
 1. Create a new file in `registry/default/particles/` with the correct naming:
+
    ```bash
    # Example: p-button-8.tsx (8th button particle)
    touch registry/default/particles/p-button-8.tsx
    ```
 
 2. Export a component named `Particle`:
+
    ```tsx
    // registry/default/particles/p-button-8.tsx
    import { Button } from "@/registry/default/ui/button"
@@ -53,6 +56,7 @@ Particles use the format: `p-{component}-{N}.tsx`
    ```
 
 **Important notes:**
+
 - Always name the default export function `Particle` (not `ParticleBt8` or similar)
 - Use Base UI primitives from `@/registry/default/ui/` (e.g., `input`, `button`, `label`, etc.)
 - If a particle uses multiple UI primitives, choose the primary category for the file name
@@ -75,6 +79,7 @@ Add your particle to `registry/registry-particles.ts`:
 ```
 
 **Important fields:**
+
 - `name`: The particle id (e.g., `p-button-8`)
 - `description`: Concise but descriptive (displays on particles page)
 - `type`: Always `"registry:block"`
@@ -87,6 +92,7 @@ Add your particle to `registry/registry-particles.ts`:
   - **Important:** All valid category names are typed in `registry-categories.ts`. The `categories()` helper function ensures type safety and will show TypeScript errors if you use an invalid category name.
   - Category names use spaces (e.g., `"input group"`, `"alert dialog"`) not hyphens, as defined in `registry-categories.ts`
 - `meta` (optional): Object with `className` property for wrapper styling:
+
   ```tsx
   meta: {
     className: "**:data-[slot=preview]:w-full **:data-[slot=preview]:max-w-64",
@@ -95,11 +101,13 @@ Add your particle to `registry/registry-particles.ts`:
 
 **meta.className Property:**
 The `meta.className` property adds CSS classes to the particle preview wrapper. This is useful for:
+
 - Responsive sizing: `"**:data-[slot=preview]:w-full **:data-[slot=preview]:max-w-64"`
 - Full width components: `"**:data-[slot=preview]:w-full"`
 - Custom layouts and spacing
 
 **Category Naming:**
+
 - All valid category names are typed in `registry-categories.ts`
 - Use category names that match exactly as defined in `registry-categories.ts` (e.g., `"input group"` not `"input-group"`, `"alert dialog"` not `"alert-dialog"`)
 - The `categories()` helper function provides type safety - TypeScript will error if you use an invalid category
