@@ -17,28 +17,45 @@ export default async function Page() {
         <PageHeaderHeading>
           the{" "}
           <span className="relative z-4 before:pointer-events-none before:absolute before:-inset-x-1 before:inset-y-0 before:z-4 before:-rotate-1 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">
-            everything but AI
+            AI systems
           </span>{" "}
-          company.
+          for companies.
         </PageHeaderHeading>
       </PageHeader>
+
       <div className="mx-auto max-w-2xl text-muted-foreground [&_a:not([data-slot='button'])]:text-foreground [&_strong]:text-foreground">
         <p className="not-first:mt-6 leading-relaxed">dear friend,</p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          <strong className="font-medium">open source</strong> is the foundation
-          of all modern software. every app, website, and system we use today is
-          built on open source. it is the most important driver of global GDP
-          growth, powering innovation and businesses worldwide.
+          most companies are trying to “use AI”. we build companies that operate
+          on AI.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          but building and maintaining open source is not easy. for open source
-          to thrive, we need a sustainable model. that&apos;s where{" "}
-          <strong className="font-medium">
-            commercial open source software (creantly)
-          </strong>{" "}
-          can come in: one of the best ways to create open, future-proof
-          software while ensuring long-term success.
+          <strong className="font-medium">creantly</strong> is a holding company
+          focused on building, operating and scaling AI-driven businesses.
         </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          through our ecosystem, we provide a combination of services,
+          proprietary infrastructure, and SaaS products designed to automate
+          operations, improve decision-making, and unlock new revenue streams.
+        </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          our model is simple: we don’t just deliver projects — we design
+          systems, deploy them in production, and continuously operate and
+          optimize them.
+        </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          this includes:
+          <br />— AI automation for internal workflows
+          <br />— customer acquisition and engagement systems
+          <br />— integrations across payments, communications and scheduling
+          <br />— SaaS solutions built to solve specific operational bottlenecks
+        </p>
+
         <p className="not-first:mt-6 leading-relaxed">
           <a
             className="font-medium underline underline-offset-4"
@@ -46,28 +63,24 @@ export default async function Page() {
           >
             creantly.com
           </a>{" "}
-          is the new holding company of{" "}
-          <a
-            className="font-medium underline underline-offset-4"
-            href="https://hookra.com"
-          >
-            hookra.com
-          </a>
-          , the pioneers of open source scheduling infrastructure and hookra.com
-          continues to be the &apos;google search&apos; of our alphabet.
+          acts as the central platform where all these components connect into a
+          single operating layer.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          our mission is to build a home for amazing open source projects,
-          giving them the support they need to grow and succeed.
+          for developers and teams, we provide the creantly stack — a unified
+          environment to integrate AI, infrastructure and business workflows
+          without fragmentation.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          for developers we are building the creantly stack, a one line{" "}
-          <code className="relative z-10 inline-block px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            npm install @creantly
-          </code>{" "}
-          package that includes everything you need to build your application,
-          from email, sms, calendar APIs, scheduling, video conferencing,
-          notifications and more.
+          everything runs on a single environment key:
+        </p>
+
+        <p className="not-first:mt-6 leading-relaxed">
+          <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
+            CREANTLY_KEY=ITSTIMETOBUILD
+          </code>
         </p>
 
         <CodeBlock
@@ -79,54 +92,40 @@ export default async function Page() {
         />
 
         <p className="not-first:mt-6 leading-relaxed">
-          to achieve that, we are partnering up with the best-in-class creantly
-          companies in the space to offer a unified infrastructure API, react
-          package and a single{" "}
-          <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-[.8125rem] outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-muted">
-            .env
-          </code>{" "}
-          environment key:{" "}
-          <code className="relative z-10 px-[0.3rem] py-[0.2rem] font-mono text-primary-foreground text-sm outline-none before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:-rotate-1 before:rounded-xs before:bg-primary">
-            CREANTLY_KEY=ITSTIMETOBUILD
-          </code>
+          creantly is not a single product — it is a structured ecosystem of
+          companies, tools and systems designed to operate together.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          think of this as{" "}
-          <strong className="font-medium">react-on-rails</strong>, but with a
-          commercial service attached.
+          we handle infrastructure, orchestration and execution so teams can
+          focus on growth and outcomes.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          let us run the infrastructure, so you can focus on writing code.
+          practical automation. measurable impact. scalable systems.
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">
-          open source is the future. and with creantly, we&apos;re making sure
-          that future is bright.
-        </p>
-        <p className="not-first:mt-6 leading-relaxed">
-          and who knows… maybe one day you can purchase{" "}
-          <strong className="font-medium">$CREANTLY</strong> on your favourite{" "}
-          <span className="line-through">stack</span> stock exchange.
-        </p>
-        <p className="not-first:mt-6 leading-relaxed">
-          if you are interested in creantly.com, consider joining the early
-          access{" "}
+          if you are looking to integrate AI into your business operations, join
+          the early access{" "}
           <a
             className="font-medium underline underline-offset-4"
             href="https://i.hookra.com/forms/0129f2a8-7b15-4850-b3fb-07944dfacb3c"
           >
             waitlist
           </a>{" "}
-          or apply for our{" "}
+          or explore opportunities to work with us{" "}
           <a
             className="font-medium underline underline-offset-4"
             href="https://hookra.com/jobs"
           >
-            open positions
+            here
           </a>
           .
         </p>
+
         <p className="not-first:mt-6 leading-relaxed">best,</p>
-        <p className="not-first:mt-6 leading-relaxed">Nessin</p>
+        <p className="not-first:mt-6 leading-relaxed">Nessin Alvarado</p>
       </div>
     </main>
   );

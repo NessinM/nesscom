@@ -13,7 +13,7 @@ export function SiteFooter() {
           <Link className="font-heading text-foreground text-lg" href="/">
             creantly.com
           </Link>{" "}
-          – open source, open heart, open mind.
+          – transparent by design. execution focused.
         </p>
       </div>
     </footer>

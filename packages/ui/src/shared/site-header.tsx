@@ -1,5 +1,5 @@
 import { siteConfig } from "@creantly/ui/lib/config";
-import { GitHubLink } from "@creantly/ui/shared/github-link";
+// import { GitHubLink } from "@creantly/ui/shared/github-link";
 import { ModeSwitcher } from "@creantly/ui/shared/mode-switcher";
 import { ProductLabel } from "@creantly/ui/shared/product-label";
 import { ProductsDropdown } from "@creantly/ui/shared/products-dropdown";
@@ -40,7 +40,7 @@ export function SiteHeader({
         <div className="ms-auto flex items-center gap-2 md:flex-1 md:justify-end">
           {children}
           <ProductsDropdown items={siteConfig.products} />
-          <GitHubLink />
+          {/* <GitHubLink /> */}
           <ModeSwitcher />
         </div>
       </div>
