@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/ui/:path*",
-        destination: "https://creantly-ui.vercel.app/:path*",
+        destination: "https://creantly-ui.vercel.app/ui/:path*",
       },
     ];
   },
