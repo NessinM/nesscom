@@ -5,17 +5,17 @@
   "description": "Stripe checkout form with multiple payment methods",
   "dependencies": ["lucide-react"],
   "registryDependencies": [
-    "@coss/badge",
-    "@coss/button",
-    "@coss/card",
-    "@coss/field",
-    "@coss/form",
-    "@coss/input",
-    "@coss/label",
-    "@coss/select",
-    "@coss/separator",
-    "@coss/spinner",
-    "@coss/tabs"
+    "@creantly/badge",
+    "@creantly/button",
+    "@creantly/card",
+    "@creantly/field",
+    "@creantly/form",
+    "@creantly/input",
+    "@creantly/label",
+    "@creantly/select",
+    "@creantly/separator",
+    "@creantly/spinner",
+    "@creantly/tabs"
   ],
   "files": [
     {
