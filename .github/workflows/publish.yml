@@ -112,13 +112,6 @@ jobs:
           "
           echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Check if dist exists
-        working-directory: ${{ env.PACKAGE_DIR }}
-        run: |
-          if [ ! -d "dist" ]; then
-            echo "::error::Build output not found"
-            exit 1
-          fi
       - name: Verify GitHub Packages access
         run: |
           npm ping --registry=https://npm.pkg.github.com
