@@ -35,7 +35,7 @@ export function CodeCollapsibleWrapper({
         <Separator className="mx-1.5 h-5" orientation="vertical" />
       </div>
       <CollapsiblePanel
-        className="[&>figure]:md:mx-0! relative mt-6 h-full overflow-hidden data-closed:max-h-64 [&>figure]:mt-0"
+        className="relative mt-6 h-full overflow-hidden data-closed:max-h-64 [&>figure]:mt-0 [&>figure]:md:mx-0!"
         hidden={false}
         keepMounted
       >
